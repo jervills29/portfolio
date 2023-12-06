@@ -1,0 +1,586 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: "Montserrat";
+  background: #181818;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat";
+}
+
+.section-heading{
+  font-weight: bold;
+  text-align:left;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+#title{
+  font-family: "Montserrat";
+}
+.hrline{
+  border-style: none;
+  width: 12%;
+  border-color: #22d460;
+  border-width: 5px;
+  border-top-style:solid;
+}
+/* Navigation and Intro */
+
+.logo{
+  width: 120px;
+  cursor: pointer;
+}
+.nav-link{
+  color: white!important;
+}
+.nav-link:hover{
+  color: #22D460!important;
+}
+.navbar-nav{
+  font-family:"Montserrat";
+  font-weight:700;
+  text-align:center;
+  font-size: 14px;
+  text-transform: uppercase;
+
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  padding: 0;
+}
+.profile{
+  object-fit: cover;
+  border-radius: 500px;
+  box-shadow: 0px 0px 14px 0px rgba(46, 229, 157, 0.4);
+  
+}
+.my-img{
+  
+  text-align: center;
+  padding-top: 20px;
+  overflow: hidden;
+  
+}
+
+.center-block{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.introduction{
+  padding-top: 35px;
+}
+.box{
+  padding: 0 14% 0;
+  margin-bottom: 5%;
+}
+.intro{
+  font-family: "Montserrat";
+  font-size: 3.125rem;
+  font-weight: bold;
+  color: #22D460;
+}
+.Name{
+  font-family: "Montserrat";
+  font-size: 3.375rem;
+  font-weight: 900;
+}
+.title{
+  font-family: "Montserrat";
+  font-size: 1.125rem;
+  color: #22d460;
+}
+.title1{
+  font-size: 1.125rem;
+  color: #fff;
+}
+
+.cvbtn {
+  font-family: "Montserrat";
+  padding: 1.3rem 3rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  width: 50%;
+}
+
+.cvbtn:hover {
+  background-color:#22d460;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+/* ------------- */
+
+.wave {
+
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(132% + 1.3px);
+    height: 186px;
+}
+
+.wave .shape-fill {
+    fill: #fff;
+}
+
+
+
+
+
+
+/* About me! */
+#AboutMe{
+  font-size: 1.2rem;
+  padding: 3% 20% 10%;
+  background: #fff;
+  line-height: 2;
+}
+.perks-title{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.I-am{
+  margin-top:100px;
+  text-align: center;
+}
+.I-am p{
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color:#808080;
+}
+.items{
+padding-top: 5%;
+}
+.items:hover{
+  color:#22d460;
+}
+/* -------- */
+
+/* projects */
+#projects{
+  background: #fff;
+  padding: 3% 20% 15%;
+  text-align: center;
+}
+#projects p{
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.pills{
+  margin-top: 20px;
+}
+
+.htmlpill{
+  background-color: #E44D26;
+  border-radius: 500px;
+  color: white;
+  width: 30%;
+  display: inline-block;
+}
+.csspill{
+  background-color: #2196F3;
+  border-radius: 500px;
+  color: white;
+  width: 30%;
+  display: inline-block;
+}
+.javascriptpill{
+  background-color: #F7DF1E;
+  border-radius: 500px;
+  color: white;
+  width: 30%;
+  display: inline-block;
+}
+.bootstrappill{
+  background-color: #5F3C80;
+  border-radius: 500px;
+  color: white;
+  width: 30%;
+  display: inline-block;
+}
+
+.cardbutton{
+  background-color: #22d460;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  width: 25%;
+  border-width: thin;
+
+}
+.card{
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  margin-top: 1rem;
+}
+.card:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.cardbutton {
+  font-family: "Montserrat";
+  padding: 1.3rem 3rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  width: 50%;
+}
+
+.cardbutton:hover {
+  background-color:#22d460;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.cardbutton:active {
+  transform: translateY(-1px);
+}
+
+
+
+/* ----------- */
+/* skills */
+#skills{
+  background: #fff;
+  padding: 3% 20% 15%;
+  text-align: center;
+}
+#skills .hrline{
+  margin-bottom: 5%;
+}
+.skill-title{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.logos{
+  width: 50%;
+  padding-bottom: 10px;
+}
+.sasslogo{
+  width: 67%;
+  padding-bottom: 10px;
+}
+.progress{
+  position: relative;
+  height: 30px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+.progress-fill1{
+ height: 30px;
+ width: 79%;
+ background-color: #22d460;
+}
+.progress-fill2{
+ height: 30px;
+ width: 85%;
+ background-color: #22d460;
+}
+.progress-fill3{
+ height: 30px;
+ width: 83%;
+ background-color: #22d460;
+}
+.progress-fill4{
+ height: 30px;
+ width: 70%;
+ background-color: #22d460;
+}
+.progress-fill5{
+ height: 30px;
+ width: 60%;
+ background-color: #22d460;
+}
+.progress-text{
+  position: absolute;
+  top:50%;
+  right: 5%;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+/* --------- */
+#ContactMe{
+  background: #fff;
+  padding: 3% 20%;
+}
+.contact-heading{
+  font-weight:bold;
+  text-align: center;
+}
+.form-group{
+  font-weight: 500;
+}
+.btn{
+  margin-top: 20px;
+}
+.page-footer{
+  background-color: #22D460;
+}
+.footer-copyright{
+  background-color: #181818;
+}
+.btm{
+  text-align: center;
+}
+
+
+/* -----Media adjustments---- */
+
+
+
+@media (min-width:2133.33px){
+    html{
+      max-width: 1920px;
+      margin: auto;
+    }
+    .cardbutton{
+      width: 40%;
+    }
+}
+@media (max-width:1920px){
+    .cardbutton{
+      width: 60%;
+    }
+}
+@media (max-width:1587px){
+    .cardbutton{
+      width: 60%;
+      font-size: 0.6rem;
+    }
+    #projects .pills p{
+      font-size: .8rem;
+    }
+}
+@media (max-width:1366px){
+    .cardbutton{
+      width: 90%;
+      font-size: 0.6rem;
+    }
+    #projects .pills p{
+      font-size: .7rem;
+    }
+    .cvbtn{
+      margin: auto;
+      margin-bottom: 30%;
+      width: 70%;
+      height: 15%;
+      font-size: .8rem;
+      
+    }
+}
+@media (max-width:991px) {
+  .nav-link{
+    font-size: 2rem;
+  }
+  .introduction{
+    text-align: center;
+  }
+  .container-fluid{
+    padding: 3% 3%;
+  }
+  .I-am p{
+    font-size: 1.6rem;
+  }
+  #projects p{
+    font-weight: 900;
+    font-size: 2rem;
+
+  }
+  
+  .cvbtn{
+    margin-bottom: 50%;
+    width: 90%;
+    height: 15%;
+    font-size: 0.6rem;
+  }
+
+  #projects{
+    padding: 3% 3% 10%;
+  }
+  #AboutMe{
+    padding: 3% 3% 10%;
+  }
+  #ContactMe{
+    font-size: 2.5rem;
+    padding: 0 3% 3%;
+  }
+  #skills{
+    padding: 3% 3% 10%;
+  }
+  .container{
+    padding: 3% 5% 10%;
+  }
+  p{
+    font-size: 1.7rem;
+  }
+  .navbar-nav{
+    font-size: 1.7rem;
+  }
+  .logo{
+    width: 180px;
+  }
+  .profile{
+    width: 60%;
+  }
+  .intro{
+    font-size: 5.25rem;
+    font-weight: bold;
+  }
+  .Name{
+    font-size: 5.75rem;
+    font-weight: bold;
+  }
+  .title{
+    font-size: 2.25rem;
+  }
+  .btn{
+    margin-bottom: 5%;
+    width: 40%;
+    height: 15%;
+    font-size: 1.5rem;
+  }
+  .form{
+    font-size: 1.5rem;
+  }
+  .cardbutton{
+    font-size: 1.3rem;
+    width: 60%
+  }
+  #projects .pills p{
+    font-size: .8rem;
+  }
+}
+@media (max-width:821px){
+  .Name{
+    font-size: 4.5rem;
+  }
+  .btn{
+    width: 60%;
+  }
+  .I-am p{
+    font-size: 1.6rem;
+  }
+  #projects p {
+    font-weight: 700;
+  }
+  .cardbutton{
+    font-size: 1rem;
+    width: 60%;
+  }
+  #ContactMe{
+    font-size: 2.5rem;
+    padding: 0 3% 3%;
+  }
+  #projects .pills p{
+    font-size: .8rem;
+  }
+}
+
+@media (max-width:690px){
+  .nav-link{
+    font-size: 1.5rem;
+  }
+  .section-heading{
+    font-size: 2.1rem;
+  }
+  .logo{
+    width: 120px;
+  }
+  .intro{
+    font-size: 2.25rem;
+    font-weight: bold;
+  }
+  .Name{
+    font-size: 2.3rem;
+    font-weight: 900;
+  }
+  .title{
+    font-size: 1.25rem;
+  }
+  .cvbtn{
+    margin-bottom: 50%;
+    width: 90%;
+    height: 15%;
+    font-size: 0.7rem;
+    
+  }
+  #projects .pills p{
+    font-size: .8rem;
+  }
+
+  #AboutMe p{
+    font-size: 1.2rem;
+    text-align:justify;
+  }
+  .perks-title{
+    font-size: 1.8rem;
+  }
+
+  #projects{
+    padding: 0 3% 10%;
+  }
+  #projects p{
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .cardbutton{
+    width: 60%;
+    font-size: .7rem;
+  }
+
+  #ContactMe{
+    padding: 0 3% 10%;
+  }
+}
+
